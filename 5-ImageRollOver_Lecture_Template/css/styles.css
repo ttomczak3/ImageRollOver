@@ -1,0 +1,47 @@
+body {
+	font-family: 'Rock Salt', 'Trebuchet MS', sans-serif;
+	color: #ddd;
+	background-color: #000;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+h2 {
+	font-family: Comic Sans MS;
+}
+
+#autoTimer {
+	padding: 4px;
+	/*border: 1px dotted #ddd;*/
+	margin: 0 auto;
+}
+
+img {
+	border-radius: 10px;
+	background-color: #ddd;
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+p.picCaption {
+	color: #222;
+	position: relative;
+	top: -65px;
+}
+
+.contrast {
+	filter: contrast(200%);
+}
+
+.invert {
+	filter: invert(75%);
+}
+
+.sepiaBlur {
+	filter: sepia(100%) blur(1px);
+}
